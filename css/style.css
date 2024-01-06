@@ -13,6 +13,11 @@ body {
 .background {
 	background-color: #1a1a1a;
 }
+.header__title {
+    color: #FEBE02;
+    font-weight: 700;
+    text-align: center;
+}
 /* .grid {
     display: grid;
     grid-template-areas: 
@@ -389,10 +394,26 @@ body {
     opacity: 0.5;
 }
 
-.our-courses__wrapper-item img {
+.our-courses__wrapper-item-hover {
+    transition: 0.5s;
+    opacity: 0;
+    height: 0;
+}
+
+.our-courses__wrapper-item:hover + .our-courses__wrapper-item-hover {
+    opacity: 1;
+    height: 100px;
+}
+
+.our-courses__wrapper-item svg {
     width: 24px;
     height: 20px;
     justify-self: end;
+    transition: 0.5s;
+}
+
+.our-courses__wrapper-item:hover svg {
+    transform: rotate(90deg);
 }
 
 .border {
