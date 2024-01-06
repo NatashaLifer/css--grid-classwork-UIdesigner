@@ -10,6 +10,11 @@ body {
 	box-sizing: border-box;
 }
 
+
+.header__title{
+    font-size: 54px;
+    color: white;
+}
 .background {
 	background-color: #1a1a1a;
 }
