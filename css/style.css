@@ -37,6 +37,11 @@ body {
     border: 2px solid black;
 }*/
 
+.header__title{
+    font-size: 54px;
+    color: white;
+}
+
 .nav {
 	display: grid;
 	grid-template-columns: 1fr 2fr;
