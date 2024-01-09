@@ -13,7 +13,8 @@ body {
 
 .header__title{
     font-size: 54px;
-    color: white;
+    color: mediumpurple;
+    background-color: #1a1a1a;
     font-weight: 700;
     text-align: center;
 }
